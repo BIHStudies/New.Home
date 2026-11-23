@@ -955,20 +955,33 @@ margin-right: calc(50% - 50vw);
   text-align: center;
   overflow: hidden;
   background:
-    radial-gradient(ellipse at 85% 15%,
-      rgba(75, 119, 153, .30), transparent 52%),
-    linear-gradient(135deg, #183a58, #102d4b);
-  color: #ffffff;
-}
+	  
+   background:
+  radial-gradient(
+    ellipse 70% 35% at 4% 95%,
+    rgba(104, 151, 187, .30) 0%,
+    transparent 100%
+  ),
+  radial-gradient(
+    ellipse 60% 45% at 95% 80%,
+    rgba(91, 138, 178, .36) 0%,
+    transparent 100%
+  ),
+  radial-gradient(
+    ellipse 75% 50% at 55% 115%,
+    rgba(72, 117, 154, .42) 0%,
+    transparent 100%
+  ),
+  linear-gradient(135deg, #183a58, #102d4b);
 
 .support-intro::after {
   content: "";
   position: absolute;
-  left: -5%;
-  right: -5%;
+  left: -10%;
   bottom: -95px;
-  height: 160px;
-  border-top: 2px solid rgba(219,183,110,.75);
+  width: 120%;
+  height: 180px;
+  border-top: 2px solid rgba(219,183,110,.65);
   border-radius: 50% 50% 0 0;
   transform: rotate(-2deg);
   pointer-events: none;
