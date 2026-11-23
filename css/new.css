@@ -954,7 +954,6 @@ margin-right: calc(50% - 50vw);
   padding: 70px 24px 150px;
   text-align: center;
   overflow: hidden;
-  
 	  
   background:
   radial-gradient(
@@ -974,6 +973,7 @@ margin-right: calc(50% - 50vw);
     #dcebf2 72%,
     #a8c9dd 100%
   );
+}
 .support-intro::after {
   content: "";
   position: absolute;
