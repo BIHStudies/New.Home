@@ -948,7 +948,9 @@
 .support-intro {
   position: relative;
   max-width: none;
-  margin: 0 -24px;
+ width: 100vw;
+margin-left: calc(50% - 50vw);
+margin-right: calc(50% - 50vw);
   padding: 70px 24px 150px;
   text-align: center;
   overflow: hidden;
