@@ -956,25 +956,24 @@ margin-right: calc(50% - 50vw);
   overflow: hidden;
   
 	  
-   background:
+  background:
   radial-gradient(
-    ellipse 70% 35% at 4% 95%,
-    rgba(104, 151, 187, .30) 0%,
-    transparent 100%
+    ellipse 85% 45% at 15% 105%,
+    rgba(83, 143, 183, .38),
+    transparent 85%
   ),
   radial-gradient(
-    ellipse 60% 45% at 95% 80%,
-    rgba(91, 138, 178, .36) 0%,
-    transparent 100%
+    ellipse 80% 50% at 90% 100%,
+    rgba(61, 119, 163, .30),
+    transparent 85%
   ),
-  radial-gradient(
-    ellipse 75% 50% at 55% 115%,
-    rgba(72, 117, 154, .42) 0%,
-    transparent 100%
-  ),
-  linear-gradient(135deg, #183a58, #102d4b);
-}
-
+  linear-gradient(
+    180deg,
+    #faf8f2 0%,
+    #f4f6f5 36%,
+    #dcebf2 72%,
+    #a8c9dd 100%
+  );
 .support-intro::after {
   content: "";
   position: absolute;
@@ -999,7 +998,7 @@ margin-right: calc(50% - 50vw);
 .support-title {
   max-width: 950px;
   margin: 16px auto 20px;
-  color: #ffffff;
+  color: #183a58;
   font-family: Georgia, serif;
   font-size: clamp(35px, 4.5vw, 57px);
   font-weight: 600;
@@ -1008,14 +1007,14 @@ margin-right: calc(50% - 50vw);
 }
 
 .support-title em {
-  color: #f1d9a3;
+  color: #a47730;
   font-style: italic;
 }
 
 .support-description {
   max-width: 670px;
   margin: 0 auto;
-  color: #e0e9f0;
+  color: #456074;
   font-size: 17px;
   line-height: 1.7;
 }
