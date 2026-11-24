@@ -1,0 +1,309 @@
+/* BIHS FOOTER — SHARED COLOR PALETTE */
+
+.bihs-footer {
+  --navy: #183a58;
+  --navy-dark: #102f49;
+  --gold: #b17c27;
+  --gold-soft: #dbb76e;
+  --cream: #faf8f2;
+  box-sizing: border-box;
+}
+
+.bihs-footer *,
+.bihs-footer *::before,
+.bihs-footer *::after {
+  box-sizing: border-box;
+}
+/* ==========================================
+   BIHS SHARED WEBSITE FOOTER
+   ========================================== */
+
+.bihs-footer {
+  background: var(--navy-dark);
+  color: var(--cream);
+  border-top: 3px solid var(--gold-soft);
+  padding: 48px 24px 20px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.footer-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/* INSTITUTIONAL IDENTITY */
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding-bottom: 28px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid rgba(219, 183, 110, .30);
+}
+
+.footer-logo {
+  display: block;
+  width: 85px;
+  height: 85px;
+  object-fit: contain;
+}
+
+.footer-brand-text h2 {
+  color: var(--cream);
+  font-size: 21px;
+  line-height: 1.3;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.footer-tagline {
+  color: var(--gold-soft);
+  font-size: 12px;
+  letter-spacing: .6px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* FOUR FOOTER COLUMNS */
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.3fr 1fr;
+  gap: 35px;
+  padding-bottom: 35px;
+}
+
+.footer-column h3 {
+  color: var(--gold-soft);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0 0 18px;
+}
+
+.footer-column p,
+.footer-column address {
+  color: var(--cream);
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0 0 14px;
+  font-style: normal;
+}
+
+.footer-column a {
+  color: var(--cream);
+  font-size: 14px;
+  line-height: 1.8;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.footer-column a:hover {
+  color: var(--gold-soft);
+}
+
+/* FOOTER NAVIGATION */
+
+.footer-column nav {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* NEWSLETTER SUBSCRIPTION */
+
+.footer-column .footer-subscribe {
+  display: inline-block;
+  border: 1px solid var(--gold-soft);
+  color: var(--gold-soft);
+  padding: 9px 15px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 2px 0 18px;
+  transition: background .2s ease, color .2s ease;
+}
+
+.footer-column .footer-subscribe:hover {
+  background: var(--gold-soft);
+  color: var(--navy-dark);
+}
+
+/* SOCIAL MEDIA ICONS */
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--gold-soft);
+  border-radius: 50%;
+  color: var(--gold-soft);
+  transition: background .2s ease, color .2s ease;
+}
+
+.footer-social a:hover {
+  background: var(--gold-soft);
+  color: var(--navy-dark);
+}
+
+.footer-social svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* SUPPORT BIHS */
+
+.footer-column .footer-support-message {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--cream);
+  margin-bottom: 18px;
+}
+
+.footer-column .footer-support-button {
+  display: inline-block;
+  background: var(--gold-soft);
+  color: var(--navy-dark);
+  padding: 10px 19px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 16px;
+  transition: background .2s ease;
+}
+
+.footer-column .footer-support-button:hover {
+  background: var(--cream);
+  color: var(--navy-dark);
+}
+
+.footer-column .footer-nonprofit {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* COPYRIGHT AND FUTURE LEGAL LINKS */
+
+.footer-bottom {
+  border-top: 1px solid rgba(219, 183, 110, .30);
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--cream);
+}
+
+.footer-legal {
+  display: flex;
+  gap: 18px;
+}
+
+.footer-legal a {
+  color: var(--gold-soft);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-legal a:hover {
+  text-decoration: underline;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+}
+
+/* MOBILE */
+
+@media (max-width: 550px) {
+
+  .bihs-footer {
+    padding: 35px 24px 20px;
+  }
+
+  .footer-brand {
+    gap: 15px;
+    align-items: center;
+  }
+
+  .footer-logo {
+    width: 65px;
+    height: 65px;
+  }
+
+  .footer-brand-text h2 {
+    font-size: 16px;
+  }
+
+  .footer-tagline {
+    font-size: 10px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .footer-column {
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(219, 183, 110, .18);
+  }
+
+  .footer-column:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+/* ACCESSIBILITY */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .bihs-footer a {
+    transition: none;
+  }
+
+}
+
+/* ==========================================
+   END BIHS SHARED WEBSITE FOOTER
+   ========================================== */
