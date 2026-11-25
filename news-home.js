@@ -98,7 +98,7 @@
 
 .news-image-global {
   background-color: var(--navy-dark);
-  /* background-image: url('../img/new/news-global.jpg'); */
+  /* background-image: url('../img/new/news-global.png'); */
 }
 
 /* EDITORIAL CONTENT */
